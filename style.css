@@ -1,0 +1,66 @@
+/* 全体のスタイル */
+body {
+  font-family: "Segoe UI", "ヒラギノ角ゴ ProN", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+  background-color: #4f8ef7;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* メイン部分 */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* セクション */
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #4f8ef7;
+  border-bottom: 2px solid #4f8ef7;
+  padding-bottom: 5px;
+}
+
+/* リスト */
+ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+/* リンク */
+a {
+  color: #4f8ef7;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eaeaea;
+  color: #555;
+  font-size: 14px;
+}
